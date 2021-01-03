@@ -10,7 +10,7 @@ func request(method string, url string, options *Options) *Response {
 	session :=  New(options)
 	res, err := session.Request(method, url, options)
 	if err != nil {
-		println(err)
+		panic(err)
 	}
 
 	return res

@@ -29,7 +29,6 @@ func New(options *Options) *Session {
 
 		proxy, err := url.Parse(options.Proxy)
 		if err != nil {
-			println(11111)
 			panic(err)
 		}
 		return http.ProxyURL(proxy)				// 设置代理
