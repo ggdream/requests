@@ -1,0 +1,10 @@
+name: requests
+version: 0.0.1
+author: <ggdream gdream@yeah.net>
+description: my new project.
+repository: github.com/ggdream/requests
+env: go1.15.5-linux/amd64
+target:
+  - linux/amd64
+scripts: {}
+packages: {}
